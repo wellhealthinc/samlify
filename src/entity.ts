@@ -7,13 +7,11 @@ import { base64Decode, isNonEmptyArray, inflateString } from './utility';
 import { namespace, wording, algorithms, messageConfigurations } from './urn';
 import * as uuid from 'uuid';
 import libsaml from './libsaml';
-import Metadata from './metadata';
 import IdpMetadata, { IdpMetadata as IdpMetadataConstructor } from './metadata-idp';
 import SpMetadata, { SpMetadata as SpMetadataConstructor } from './metadata-sp';
 import redirectBinding from './binding-redirect';
 import postBinding from './binding-post';
 import { isString, isUndefined, isArray, get } from 'lodash';
-import * as url from 'url';
 import { MetadataIdpConstructor, MetadataSpConstructor, EntitySetting } from './types';
 
 const dataEncryptionAlgorithm = algorithms.encryption.data;

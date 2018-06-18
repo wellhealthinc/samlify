@@ -5,7 +5,7 @@
 */
 import utility from './utility';
 import libsaml from './libsaml';
-import Entity, { BindingContext } from './entity';
+import { BindingContext } from './entity';
 import { IdentityProvider as Idp } from './entity-idp';
 import { ServiceProvider as Sp } from './entity-sp';
 import * as url from 'url';

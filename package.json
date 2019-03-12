@@ -1,6 +1,6 @@
 {
-  "name": "samlify",
-  "version": "2.4.0-rc1",
+  "name": "@zack.leman/samlify-well",
+  "version": "2.4.3-wellrebuild",
   "description": "High-level API for Single Sign On (SAML 2.0)",
   "main": "build/index.js",
   "keywords": [
@@ -32,7 +32,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@passify/xml-encryption": "^0.11.1",
+    "@authenio/xml-encryption": "^0.11.1",
     "@types/camelcase": "^0.0.30",
     "@types/lodash": "^4.14.112",
     "@types/node": "^7.0.67",
